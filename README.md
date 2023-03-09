@@ -1,6 +1,7 @@
 # IEModeExpiryFix
 IEModeExpiryFix - fix date expiration in edge`s list of IE11-mode pages
-by default is 30 days
+
+by default pages in list expires in 30 days
 
 replaces in files
 
