@@ -4,7 +4,7 @@ by default is 30 days
 
 replaces in files
 
-	C:\Users\root\AppData\Local\Microsoft\Edge\User Data\*\Preferences
+	C:\Users\<current user>\AppData\Local\Microsoft\Edge\User Data\*\Preferences
 
 
     {
