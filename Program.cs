@@ -86,6 +86,19 @@ namespace IEModeExpiryFix
                             return true;
                         })
                         .ToList();
+
+                    ob = Get(json, "dual_engine", "consumer_mode");
+
+                    if (ob != null)
+                    {
+                        var val = (JValue)ob.GetValue("enabled_state");
+                        if (val != null)
+                            val.Value = 1;
+                        else
+                        {
+                            ob.Add("enabled_state", 1);
+                        }
+                    }
                 }
 
                 if (mod)
